@@ -1,4 +1,3 @@
-"annu"     #a is a veriable
-# print(a)
-# b=123455      #b is a variable
-# print(b)
+ame="Annu"
+# for i in name:
+#     print(i,end=",")
