@@ -1,3 +1,4 @@
+# tuples are immutable, ordered collection of datatype 
 # Creating a tuple
 fruits=("apple","banana","cherry")
 
