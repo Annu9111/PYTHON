@@ -16,4 +16,25 @@ try:
 except ValueError:
     print("number entered is not an integer")
 except IndexError:
-    print("index is invalid")        
+    print("index is invalid")   
+    
+# finally clause:we can include the finally block at the end.The finally block is always executed
+def fun():
+    try:
+        l=["a","b","c"]
+        d=int(input("enter the number : "))
+        print(l[d])
+        return 1
+    except:
+        print("you typed wrong index")
+        return 0
+    finally:
+        print("i am always executed")   
+
+print(fun())             
+             
+# raising custom error : we can raise custom error by raise keyword
+a=int(input("Enter any number: "))
+if a<5 or a>10:
+    raise ValueError("you typed wrong")
+             
