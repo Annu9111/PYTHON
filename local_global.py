@@ -12,7 +12,7 @@ def num():
 
 num()
 print("global x is",x)   
-# ----------------------------------------------------------------------------
+# -------------------------------
 #global keyword = it change the global variable within the function
 y=89
 def fam():
@@ -22,4 +22,5 @@ def fam():
     
 fam()
 print(y)     
+
 
