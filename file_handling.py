@@ -14,6 +14,7 @@ f=open("my_file.txt","a")    #a=add to the existing file
 text=f.write("\nhello everyone!!!")
 f.close()  
 
+#No need to close-->shortcut to open a file
 with open("my_file.txt","a") as f:
     f.write("\nhey i am inside") 
 
