@@ -1,5 +1,5 @@
 class person:           #class is a blueprint or a template for creating objects
-    name="Anjali"
+    name="tom"
     occupation="software developer"
     networth=10
     
@@ -14,3 +14,9 @@ b=person()
 b.name="nikita"
 b.occupation="HR"
 b.info()
+
+c=person()
+c.name="siya"
+c.info()
+
+
