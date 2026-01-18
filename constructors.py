@@ -12,4 +12,6 @@ a.info()
 
 b=Person("John","Teacher")
 b.info()
+
+
            
