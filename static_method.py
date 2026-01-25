@@ -1,4 +1,4 @@
-#static method = these are the methods that belong to a class rather than an instance of the class.They are define under @staticmethod decorator and do not have accessto the instance of the class.
+#static method = these are the methods that belong to a class rather than an instance of the class.They are define under @staticmethod decorator and do not have access to the instance of the class.
 
 class Maths:
     def __init__(self,num):
